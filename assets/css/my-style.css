@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+:root{
+    --gray:#42433e;
+    --white:#fefefe;
+    --black:#000000;
+}
+.d-flex{
+    display: flex;
+}
+.l-none{
+    list-style-type: none;
+}
+.d-none{
+    display: none;
+}
+.sec-space{
+    padding: 40px 0;
+}
+/* ----------------------------------------------- */
+                 /* hero-section */
+/* ----------------------------------------------- */
+.hero-wrapper .carousel-caption {
+    top: 8rem;
+}
+
+.hero-wrapper .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #000;
+    background-color: white;
+}
+.carousel-indicators [data-bs-target] {
+    width: 5px;
+}
+/* ----------------------------------------------- */
+                 /* header-section */
+/* ----------------------------------------------- */
+.sec-heading h4{
+    font-size: calc(1rem + .5vw);
+}
+.sec-heading small {
+    font-size: 50%;
+    display: block;
+}
+
+/* ----------------------------------------------- */
+                 /* swipper-section */
+/* ----------------------------------------------- */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* ----------------------------------------------- */
+                 /* mountain-walk-section */
+/* ----------------------------------------------- */
+
+  .mountain-walk-inner .walk .row .col-md-6 p, small, ul {
+    font-size: calc(.3rem + .5rem );
+  }
+
+
+
+  .sec-heading p {
+
+ font-size: calc(.3rem + .5vw);
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width:768px){
+    .text-inner .row {
+       text-align: center!important;
+    }
+    .text-inner .row .col-md-6{
+        text-align: center!important;
+        padding-bottom: 1rem;
+     }
+     .mountain-walk-inner .walk .row .stun h4{
+        padding-top: 1rem!important;
+        list-style-type: none;
+     } .mountain-walk-inner .walk .row .stun ul{
+ 
+        list-style-type: none;
+     }
+      }
