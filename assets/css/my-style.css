@@ -122,3 +122,19 @@
         list-style-type: none;
      }
       }
+      @media(max-width:576px){
+       
+        .swipper{
+            padding-top: 6px!important;
+        }
+        .section-mountain-walk{
+            padding-bottom: 10px!important;
+        }
+        .mountain-walk-inner .walk .row {
+            padding-top: 0px!important;
+            
+        }
+        .footer .sec-heading{
+            padding-top: 12px!important;
+        }
+      }
